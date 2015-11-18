@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 	
 public class DuplicatePrefab : ScriptableObject {
-	[MenuItem("Samelot/DuplicateSelected")]
+	[MenuItem("Samelot/DuplicateSelected %#d")]
 	public static void DuplicateSelected ()
 	{
 		GameObject clone;
